@@ -12,7 +12,7 @@ const createButton = () => {
     const li = createEl(index, "li");
     const eachButton = createEl(index, "button");
     const img = document.createElement("img");
-    img.src = "public/icons/plus.svg";
+    img.src = "src/public/icons/plus.svg";
     container.appendChild(li);
     li.appendChild(eachButton);
     eachButton.appendChild(img);
@@ -76,12 +76,12 @@ const handleChange = (click) => {
       targetButton.append(span);
       span.className = "span-button";
       span.innerHTML = title;
-      targetButton.children.item(0).src = "public/icons/minus.svg";
+      targetButton.children.item(0).src = "src/public/icons/minus.svg";
     } else {
       for (let key of targetButton.children) {
         if (key == targetButton.children.item(1)) {
           targetButton.children.item(1).remove();
-          targetButton.children.item(0).src = "public/icons/plus.svg";
+          targetButton.children.item(0).src = "src/public/icons/plus.svg";
         }
       }
     }
