@@ -1,0 +1,28 @@
+.button-initial {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    width: 41px;
+    height: 41px;
+    flex-shrink: 0;
+    background-color: var(--blue);
+    padding: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.activ {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 11px 15px;
+    align-items: center;
+    gap: 15px;
+    border-radius: 40px;
+    width: auto;
+}

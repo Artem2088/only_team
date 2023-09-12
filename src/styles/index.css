@@ -1,3 +1,16 @@
-h1 {
-    color: red;
+@import url('../vendor/normalize.css');
+@import url('../styles/main.css');
+@import url('../styles/container.css');
+@import url('../styles/button.css');
+@import url('../styles/lists.css');
+@import url('../styles/span.css');
+
+
+body {
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+
+    --green: rgba(106, 191, 75, 0.7);
+    --blue: rgba(56, 119, 238, 0.7);
+    --white: rgb(255, 255, 255);
 }
